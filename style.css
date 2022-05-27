@@ -1,0 +1,160 @@
+@import url("https://fonts.cdnfonts.com/css/cocogoose");
+@import url("https://fonts.cdnfonts.com/css/Lato");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;500;600;700&display=swap");
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Lato", sans-serif;
+}
+
+.nav-logo {
+  display: none;
+}
+
+footer {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  padding: 3rem;
+  color: #d3d3d3;
+  background-color:whitesmoke;
+  
+}
+
+.footer-logo {
+  display: flex;
+  margin-right: 1rem;
+}
+
+.footer-img {
+  height: 60px;
+  width: 80px;
+}
+
+.footer-name p {
+  margin: 1px;
+  color: #e43c13;
+  font-size: 18px;
+  font-weight: 600;
+}
+
+.footer-message {
+  color: #272a31;
+}
+.card-background-color {
+  background-image: linear-gradient(
+          180deg,
+          rgba(247, 247, 247, 0) 32.81%,
+          rgba(0, 0, 0, 0.5) 55.21%,
+          #000000 90.1%
+        ),
+        url(Assets/popular-dishes1.png);
+      border-radius: 5%;
+}
+
+.text-end {
+  display: none;
+}
+
+.foodie {
+  height: 150px;
+  width: 130px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.line {
+  height: 1px;
+  background-color: #e43c13;
+  width: 50px;
+}
+
+.dishes-wrapper .dish-img::before {
+  content: "";
+  width: 80px;
+  height: 80px;
+  background: #ec5242;
+  margin-left: -18px;
+  position: absolute;
+  margin-top: -18px;
+  z-index: -1;
+}
+
+.dishes-wrapper .dish-img > img {
+  box-shadow: 0 0 5px #717171;
+  border: 3px solid white;
+  width: 95px;
+}
+
+#get-dishes {
+  display: flex;
+  justify-content: space-evenly;
+  margin-left: 100px;
+}
+
+.m-hide {
+  display: none;
+}
+
+.dish-item {
+  margin-left: 20px;
+  padding-top: 30px;
+}
+
+@media screen and (mid-width: 768px) { 
+  .navbar-brand {
+    display: none;
+  } 
+
+  .container1 {
+    max-width: 100%;
+  }
+  
+  .dishes-wrapper .dish-img > img {
+    width: 150px;
+  }
+
+  #get-dishes {
+    margin: 0 13%;
+  }
+
+  .m-hide {
+    display: block;
+  }
+
+  .dish-item {
+    margin-left: 0;
+  }
+
+  footer {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    padding: 3rem;
+    background-color: #d3d3d3;
+  }
+
+
+  .footer-message {
+    color: #272a31;
+  }
+}
+
+.card-bg-1 {
+  background-image: url(./images/popular-dishes1.png);
+}
+
+.card-bg-2 {
+  background-image: url(./images/popular-dishes2.png);
+}
+
+.card-bg-3 {
+  background-image: url(./images/popular-dishes3.png)
+}
+
+.card-bg-4 {
+  background-image: url(./images/popular-dishes4.png)
+}
