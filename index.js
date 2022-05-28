@@ -1,55 +1,72 @@
+const hamburger = document.getElementById('hamburger');
+const nav = document.querySelector('#nav');
+
+function menu() {
+  hamburger.classList.toggle('change');
+  nav.classList.toggle('hide');
+  document.body.classList.toggle('no-scroll');
+  const show = document.getElementById('navbarSupportedContent');
+  show.classList.toggle('d-none');
+  if (show.style.display === 'flex') {
+    show.style.display = 'flex';
+  } else {
+    show.style.display = 'flex';
+  }
+}
+hamburger.addEventListener('click', menu);
+
 const dishes = {
   0: {
-    name: 'Ndole',
+    name: 'Fried ',
     photo: 'images/food2.jpg',
-    title: 'Ndole',
+    title: 'Fried',
     content:
-      'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+      'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   1: {
-    name: 'Achu',
+    name: 'Jollof',
     photo: 'images/food3.jpg',
-    title: 'Achu',
+    title: 'Jollof',
     content:
-      'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+      'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   2: {
-    name: 'Kokki',
+    name: 'Stew',
     photo: 'images/food4.jpg',
-    title: 'kokki',
+    title: 'Tomatoes',
     content:
-      'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+      'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   3: {
-    name: 'Njama-njama',
+    name: 'Banga Soup',
     photo: 'images/food5.jpg',
     title: 'Njama-njama',
     content:
-      'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+      'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   4: {
-    name: 'Egusi-Pudding',
+    name: 'Egusi-Puddinf',
     photo: 'images/food6.jpg',
     title: 'Egusi-pudding',
     content:
-      'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+      'This is a Nigerian food rich in protein and vitamins',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   5: {
-    name: 'Waterfufu-eru',
+    name: 'Amala and Gbegeri',
     photo: 'images/food9.jpg',
-    title: 'Waterfufu-eru',
+    title: 'Amala',
     content:
-      'sit amet consectetur adipisicing iste neque optio earum labore, ipsam',
+      'This is a Nigerian food eaten mostly in the western part of the country',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
