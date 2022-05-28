@@ -56,8 +56,7 @@ const dishes = {
     name: 'Egusi-Puddinf',
     photo: 'images/food6.jpg',
     title: 'Egusi-pudding',
-    content:
-      'This is a Nigerian food rich in protein and vitamins',
+    content: 'This is a Nigerian food rich in protein and vitamins',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
