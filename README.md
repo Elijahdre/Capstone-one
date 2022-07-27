@@ -1,6 +1,12 @@
+
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
 Here is a link to my loom video [Project description video](https://www.loom.com/share/7a461598ef784fe1aa1b03ecf7f3bf13)
+
+# Here is a link to my loom video [Project description video]()
+
+![](https://img.shields.io/badge/Microverse-blueviolet)
+
 
 # First Capstone Project: Responsive Restaurant Website
 
