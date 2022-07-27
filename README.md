@@ -1,15 +1,12 @@
-# Here is a link to my loom video
- 
- 
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
+Here is a link to my loom video [Project description video](https://www.loom.com/share/7a461598ef784fe1aa1b03ecf7f3bf13)
 
 # First Capstone Project: Responsive Restaurant Website
 
-![screenshot]()
+![screenshot](./images/readme-img.png)
 
 > This is my capstone project built with HTML-CSS-BOOTSTRAP-JAVASCRIPT. My love for restaurants made me develop this project along that line. The website is about a popular restuarant called Foodland restaurant. It features a list of dishes, an about page and partner sections. Please have a look at the live demo and let me know what you think 😊.
-
 
 ## Built With
 
@@ -23,18 +20,34 @@
 [Live Demo Link](https://elijahdre.github.io/Capstone-one/)
 
 ## Getting Started
-To get a local copy up and running follow these simple example steps.
 
-- Create a local directory that you want to clone the repository.
+you can clone the repository by using the command below and run the "npm install" command to install the necessary tools
 
-- Open the command prompt in the created directory.
+[`git clone git@github.com:Elijahdre/Capstone-one.git`](git@github.com:Elijahdre/Capstone-one.git)
 
-- On the terminal run this command git clone git@github.com:Elijahdre/Capstone-one.git
+### Setup
 
-- Go to the repository folder using command prompt cd javascript-capstone.
+```cmd
+git clone git@github.com:Elijahdre/Capstone-one.git
+cd ./Capstone-one
+npm install
+npm run build
+npm start
+```
 
-- Install the dev dependencies for linters run npm install.
+If you are non a technical person you can download the zip file.
 
+- To do that you have to go to the green button that says 'Code' and then press on it.
+- Choose the option 'Download Zip' and wait until it download.
+- Then you need to decompress it.
+- You will need to have Zip compress file software installed in your computer. If you don't have it you can download it from here
+  [`https://www.7-zip.org/download.html`](https://www.7-zip.org/download.html)
+- Do double click on the Capstone-1.zip and choose a folder where to place all the decompressed files.
+- Once you are done decompressing, you can open the created folder.
+- In it you can double click on the index.html file and choose a browser to open it (For example google Chrome Browser).
+- Now you should be able to see the project.
+- Remember to use the mouse to navigate through the website. Also you can use the keys 'arrow up' and 'arrow down' of your keyboard
+  to scroll up and down.
 
 ## Author
 
@@ -43,7 +56,6 @@ To get a local copy up and running follow these simple example steps.
 - GitHub: Elijahdre[https://github.com/elijahdre]
 - Twitter: @Kingglijah[https://twitter.com/elijahdre]
 - LinkedIn: Elijah Odjegba[https://LinkedIn.com/elijah-odjegba]
-
 
 ## 🤝 Contributing
 

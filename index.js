@@ -17,43 +17,43 @@ hamburger.addEventListener('click', menu);
 
 const dishes = {
   0: {
-    name: 'Fried ',
+    name: 'Fried Rice ',
     photo: 'images/food2.jpg',
-    title: 'Fried',
+    title: 'Fried rice',
     content:
       'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   1: {
-    name: 'Jollof',
+    name: 'Mashed Potatoes',
     photo: 'images/food3.jpg',
-    title: 'Jollof',
+    title: 'Potatoes',
     content:
       'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   2: {
-    name: 'Stew',
+    name: 'Fish and Egg',
     photo: 'images/food4.jpg',
-    title: 'Tomatoes',
+    title: 'Fish',
     content:
       'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   3: {
-    name: 'Banga Soup',
+    name: 'Cucumber sauce',
     photo: 'images/food5.jpg',
-    title: 'Njama-njama',
+    title: 'Cucu',
     content:
       'This is a Nigerian food rich in protein and vitamins and eaten in the South',
     description:
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   4: {
-    name: 'Egusi-Puddinf',
+    name: 'Egusi-Pudding',
     photo: 'images/food6.jpg',
     title: 'Egusi-pudding',
     content: 'This is a Nigerian food rich in protein and vitamins',
@@ -61,9 +61,9 @@ const dishes = {
       'Ariel has lived and worked in 7 different countries including Spain, Argentina, USA, and Vietnam and has been coding since he was 12. He previously founded Tourist Eye.',
   },
   5: {
-    name: 'Amala and Gbegeri',
+    name: 'Leaf soup and Eba',
     photo: 'images/food9.jpg',
-    title: 'Amala',
+    title: 'Eba',
     content:
       'This is a Nigerian food eaten mostly in the western part of the country',
     description:
