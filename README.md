@@ -17,7 +17,7 @@ Here is a link to my loom video [Project description video](https://www.loom.com
 - HTML
 - CSS
 - Bootstrap
-- JavaScript
+- JavaScript.
 
 ## LIVE DEMO
 
