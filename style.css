@@ -490,6 +490,34 @@ h1 {
   .footer-name-about {
     color: #fff;
   }
+
+  .line-main {
+    height: 1.5px;
+    background-color: #e43c13;
+    width: 70px;
+    margin-left: 520px;
+  }
+
+  .line-main-some {
+    height: 1.5px;
+    background-color: #e43c13;
+    width: 70px;
+    margin-left: 630px;
+  }
+}
+
+.line-main {
+  height: 1px;
+  background-color: #e43c13;
+  width: 70px;
+  margin-left: 130px;
+}
+
+.line-main-some {
+  height: 1.5px;
+  background-color: #e43c13;
+  width: 70px;
+  margin-left: 180px;
 }
 
 .card-bg-1 {
@@ -550,4 +578,10 @@ h1 {
   background-size: cover;
   background-repeat: no-repeat;
   background-position: center;
+}
+
+.main-dish {
+  margin-top: 30px;
+  line-height: 1.1;
+  font-size: 35px;
 }
