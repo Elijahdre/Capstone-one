@@ -1,12 +1,32 @@
 ![](https://img.shields.io/badge/Microverse-blueviolet)
 
-Here is a link to my loom video [Project description video](https://www.loom.com/share/09d096e5d43442dab33e23fe8e41cae4)
 
 # First Capstone Project: Responsive Restaurant Website
 
-![screenshot](./images/readme-img.png)
+![screenshot](./images/foodland.png)
 
 > This is my capstone project built with HTML-CSS-BOOTSTRAP-JAVASCRIPT. My love for restaurants made me develop this project along that line. The website is about a popular restuarant called Foodland restaurant. It features a list of dishes, an about page and partner sections. Please have a look at the live demo and let me know what you think 😊.
+
+## Learning Objectives 🔖
+
+- Use semantic HTML tags.
+- Apply best practices in HTML code.
+- Use CSS selectors correctly.
+- Use CSS box model.
+- Use Flexbox to place elements in the page.
+- Demonstrate ability to create UIs
+- adaptable to different screen sizes using media queries.
+- Use GitHub Pages to deploy web pages.
+- Apply JavaScript best practices and language style guides in code.
+- Use JavaScript to manipulate DOM elements.
+- Use JavaScript events.
+- Use objects to store and access data.
+- Communicate technical concepts to other technical people.
+
+## Project Documentation
+
+- Here is a link to my loom video [Project description video](https://www.loom.com/share/09d096e5d43442dab33e23fe8e41cae4)
+
 
 ## Built With
 
@@ -14,6 +34,8 @@ Here is a link to my loom video [Project description video](https://www.loom.com
 - CSS
 - Bootstrap
 - JavaScript.
+- Linters: Lighthouse, Webhint, Stylelint and ESlint
+- Code Editor: VS Code
 
 ## LIVE DEMO
 
@@ -51,21 +73,25 @@ If you are non a technical person you can download the zip file.
 
 ## Author
 
-👤 **Author**
+👤 **Elijah Odjegba**
 
-- GitHub: Elijahdre[https://github.com/elijahdre]
-- Twitter: @Kingglijah[https://twitter.com/elijahdre]
-- LinkedIn: Elijah Odjegba[https://LinkedIn.com/elijah-odjegba]
+- GitHub: [![GitHub Badge](https://img.shields.io/badge/-Elijahdre-white?logo=GitHub&logoColor=181717&style=plastic)](https://github.com/elijahdre)
+- Twitter: [![Twitter Badge](https://img.shields.io/badge/-Kingglijah-white?logo=Twitter&logoColor=1DA1F2&style=plastic)](https://twitter.com/elijahdre)
+- LinkedIn: [![LinkedIn Badge](https://img.shields.io/badge/-Elijah_Odjegba-white?logo=LinkedIn&logoColor=0A66C2&style=plastic)](https://www.linkedin.com/in/elijah-odjegba-862708179/)
+
 
 ## 🤝 Contributing
 
 Contributions, issues, and feature requests are welcome!
+
+Feel free to check the [issues page](https://github.com/Elijahdre/Capstone-one/issues).
 
 ## Show your support
 
 Give a ⭐️ if you like this project!
 
 ## Acknowledgments
+- [Microverse](https://www.microverse.org/)
 
 - [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) from who I got my inspiration.
 - A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
