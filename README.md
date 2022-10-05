@@ -93,7 +93,7 @@ Give a ⭐️ if you like this project!
 ## Acknowledgments
 - [Microverse](https://www.microverse.org/)
 
-- [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) from who I got my inspiration.
+- [Cindy Shin](https://www.behance.net/gallery/29845175/CC-Global-Summit-2015) from who I got my inspiration
 - A great thanks to My coding partners, morning session team, and standup team Partners for their contributions.
 - Thanks to Code Reviewers for the insightful feedback.
 
