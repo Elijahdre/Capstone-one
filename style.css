@@ -21,9 +21,10 @@ h1 {
   position: relative;
   color: #e43c13;
   line-height: 0.9;
-  font-size: 60px;
-  font-weight: bold;
-  padding: 1rem;
+  font-size: 40px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin-bottom: 1rem;
 }
 
 .bar1,
@@ -71,6 +72,12 @@ h1 {
   display: block;
 }
 
+.card {
+  width: auto;
+  max-width: 75ch;
+  margin-bottom: 1rem;
+}
+
 .mobile-menu {
   position: fixed !important;
   z-index: 9999;
@@ -94,16 +101,17 @@ h1 {
 .intro-message {
   margin-top: 50px;
   position: relative;
-  color: #e43c13;
-  line-height: 1.1;
-  font-size: 35px;
-  padding-left: 1rem;
+  color: #e43d13b2;
+  font-size: 25px;
 }
 
 .intro-date {
-  font-size: 30px;
-  font-weight: 800;
-  margin-left: 1rem;
+  font-size: 20px;
+  font-weight: 600;
+}
+
+#partners {
+  width: 100%;
 }
 
 #footer {
@@ -170,10 +178,7 @@ h1 {
 }
 
 .foodie {
-  width: 60px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
+  width: 42px;
 }
 
 .line {
@@ -183,7 +188,6 @@ h1 {
 }
 
 .dishes-wrapper .dish-img::before {
-  content: "";
   width: 80px;
   height: 80px;
   background: #ec5242;
@@ -224,7 +228,6 @@ h1 {
 }
 
 .about-logo {
-  padding-top: 2rem;
   padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
@@ -234,7 +237,9 @@ h1 {
 .about-logo-desc {
   margin-top: 1rem;
   text-align: center;
-  max-width: 600px;
+  padding: 0 20px;
+  width: auto;
+  max-width: 65ch;
 }
 
 .about-intro {
@@ -242,11 +247,13 @@ h1 {
   flex-direction: column;
   align-items: center;
   background-color: rgb(247, 247, 247);
-  height: 100vh;
   width: 100%;
   position: relative;
   justify-content: start;
   padding: 0 3rem;
+  color: black;
+  font-size: 18px;
+  margin-bottom: 30px;
 }
 
 .about-intro::before {
@@ -269,25 +276,16 @@ h1 {
 
 .about-intro .contact p {
   color: black;
-  font-size: 13px;
+  font-size: 12px;
 }
 
-.about-intro .contact {
-  padding-top: 2rem;
-  display: flex;
-  flex-direction: column;
-  position: relative;
-  align-items: center;
-}
-
-.about-intro .contact span {
-  color: black;
-  font-size: 18px;
-  text-decoration: underline;
+.contact {
+  margin-top: 20px;
+  padding: 0 20px;
 }
 
 .about-h1 {
-  font-size: 40px;
+  font-size: 30px;
 }
 
 .about-p {
@@ -297,6 +295,7 @@ h1 {
   min-width: 300px;
   width: 60%;
   margin: 0 auto;
+  line-height: 1.2;
 }
 
 .about-img {
@@ -314,7 +313,6 @@ h1 {
 
 .about-started {
   padding-top: 2rem;
-  padding-bottom: 2rem;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -373,151 +371,18 @@ h1 {
   overflow: hidden;
 }
 
-@media screen and (min-width: 768px) {
-  .navbar-brand {
-    display: block;
-  }
-
-  a {
-    text-decoration: none;
-  }
-
-  .medias ul a {
-    color: #fff;
-  }
-
-  #nav {
-    display: flex;
-    justify-content: space-between;
-    position: static;
-  }
-
-  ul {
-    list-style-type: none;
-    padding-left: 1rem;
-  }
-
-  #nav ul {
-    display: flex;
-    align-items: center;
-  }
-
-  #nav ul li {
-    margin: 0;
-  }
-
-  .logo {
-    display: flex;
-    align-items: center;
-    justify-content: flex-start;
-    gap: 0;
-  }
-
-  .container {
-    display: none;
-  }
-
-  .logo-img {
-    display: block;
-    height: 30px;
-    width: 30px;
-  }
-
-  .card-section {
-    display: flex;
-    justify-content: center;
-    margin: 1rem 0;
-    gap: 1rem;
-  }
-
-  header {
-    height: 30px;
-    background-color: #272a31;
-    width: 100vw;
-  }
-
-  .medias {
-    display: flex;
-    flex-direction: row-reverse;
-    color: #fff;
-  }
-
-  h1 {
-    line-height: 0.9;
-    font-size: 65px;
-  }
-
-  .text {
-    color: #e43c13;
-  }
-
-  .container1 {
-    max-width: 100%;
-  }
-
-  .dishes-wrapper .dish-img > img {
-    width: 150px;
-  }
-
-  #get-dishes {
-    margin: 0 13%;
-  }
-
-  .m-hide {
-    display: block;
-  }
-
-  .dish-item {
-    margin-left: 0;
-  }
-
-  .footer-about {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-    padding: 3rem;
-    background-color: #302e2e;
-  }
-
-  .footer-message {
-    color: #272a31;
-  }
-
-  .footer-message-about {
-    color: #fff;
-  }
-
-  .footer-name-about {
-    color: #fff;
-  }
-
-  .line-main {
-    height: 1.5px;
-    background-color: #e43c13;
-    width: 70px;
-    margin-left: 520px;
-  }
-
-  .line-main-some {
-    height: 1.5px;
-    background-color: #e43c13;
-    width: 70px;
-    margin-left: 630px;
-  }
-}
-
 .line-main {
   height: 1px;
   background-color: #e43c13;
   width: 70px;
-  margin-left: 130px;
+  margin: auto;
 }
 
 .line-main-some {
   height: 1.5px;
   background-color: #e43c13;
   width: 70px;
-  margin-left: 180px;
+  margin: auto;
 }
 
 .card-bg-1 {
@@ -584,4 +449,140 @@ h1 {
   margin-top: 30px;
   line-height: 1.1;
   font-size: 35px;
+}
+
+@media screen and (min-width: 768px) {
+  .navbar-brand {
+    display: block;
+  }
+
+  a {
+    text-decoration: none;
+  }
+
+  .intro-date {
+    font-weight: 800;
+  }
+
+  .medias ul a {
+    color: #fff;
+  }
+
+  #nav {
+    display: flex;
+    justify-content: space-between;
+    position: static;
+  }
+
+  ul {
+    list-style-type: none;
+    padding-left: 1rem;
+  }
+
+  #nav ul {
+    display: flex;
+    align-items: center;
+  }
+
+  #nav ul li {
+    margin: 0;
+  }
+
+  .logo {
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    gap: 0;
+  }
+
+  .container {
+    display: none;
+  }
+
+  .logo-img {
+    display: block;
+    height: 30px;
+    width: 30px;
+  }
+
+  .card-section {
+    display: flex;
+    justify-content: center;
+    margin: 1rem 0;
+    gap: 0.5rem;
+  }
+
+  header {
+    height: 30px;
+    background-color: #272a31;
+    width: 100vw;
+  }
+
+  .medias {
+    display: flex;
+    flex-direction: row-reverse;
+    color: #fff;
+  }
+
+  h1 {
+    line-height: 0.9;
+    font-size: 50px;
+  }
+
+  .text {
+    color: #e43c13;
+  }
+
+  .container1 {
+    max-width: 100%;
+  }
+
+  .dishes-wrapper .dish-img > img {
+    width: 150px;
+  }
+
+  #get-dishes {
+    margin: 0 13%;
+  }
+
+  .m-hide {
+    display: block;
+  }
+
+  .dish-item {
+    margin-left: 0;
+  }
+
+  .footer-about {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 3rem;
+    background-color: #302e2e;
+  }
+
+  .footer-message {
+    color: #272a31;
+  }
+
+  .footer-message-about {
+    color: #fff;
+  }
+
+  .footer-name-about {
+    color: #fff;
+  }
+
+  .line-main {
+    height: 1.5px;
+    background-color: #e43c13;
+    width: 70px;
+  }
+
+  .line-main-some {
+    height: 1.5px;
+    background-color: #e43c13;
+    width: 70px;
+    margin-left: 630px;
+  }
 }
